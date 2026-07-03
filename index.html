@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cirquit Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' href='styles.css'>
+</head>
+
+<body>
+    <div class="navbar">
+        <li class="brand-details">
+            <i class="fab fa-apple brand-logo"></i>
+            <h2>Brand</h2>
+        </li>
+
+
+        <li class="nav-item">
+            <p class="icon"><i class="fas fa-plus-square nav-icon adjusted-one"></i></p>
+            <p class="nav-item-text">Create</p>
+        </li>
+
+        <li class="nav-item">
+            <p class="icon"><i class="far fa-folder-open nav-icon adjusted-two"></i></p>
+            <p class="nav-item-text">Open</p>
+        </li>
+        
+        <li class="nav-item">
+            <p class="icon"><i class="fas fa-bell nav-icon adjusted-one"></i></p>
+            <p class="nav-item-text">Notifications</p>
+        </li>
+
+        <li class="nav-item selected">
+            <p class="icon"><i class="fas fa-house-user nav-icon"></i></p>
+            <p class="nav-item-text">Dashboard</p>
+        </li>
+
+        <li class="nav-item">
+            <p class="icon"><i class="fas fa-user nav-icon adjusted-one"></i></p>
+            <p class="nav-item-text">Profile</p>
+        </li>
+
+        <li class="nav-item">
+            <p class="icon"><i class="fas fa-cog nav-icon adjusted-three"></i></p>
+            <p class="nav-item-text">Settings</p>
+        </li>
+
+        <li class="nav-item">
+            <p class="icon"><i class="fas fa-info-circle nav-icon adjusted-three"></i></p>
+            <p class="nav-item-text">About</p>
+        </li>
+
+        <li class="nav-item">
+            <p class="icon"><i class="fas fa-share nav-icon adjusted-one"></i></p>
+            <p class="nav-item-text">Quick&nbsp;Actions</p>
+        </li>
+
+        <div class="profile-wrapper">
+            <div class="profile">
+                <div class="user-avatar-wrapper">
+                    <div class="user-avatar"></div>
+                </div>
+                <div class="user-info">
+                    <div class="user-name">
+                        <h5>Name</h5>
+                        <h6>UserID#1234</h6>
+                    </div>
+                </div>
+                <i class="fas fa-sign-out-alt sign-out"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="top-bar-container">
+        <div>
+            <i class="fas fa-bars collapse-nav"></i>
+        </div>
+
+        <div class="change-theme-wrapper">
+            <i class="fas fa-palette change-theme"></i>
+            <div class="break"></div>
+
+            <div class="theme-selection">
+                <button class="color-selection csred"></button>
+                <button class="color-selection csorange"></button>
+                <button class="color-selection csblue"></button>
+                <button class="color-selection cspurple"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="card">
+            <h2>Sample Card</h2>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <script src='scripts/collapseNav.js'></script>
+    <script src='scripts/changeTheme.js'></script>
+</footer>
+
+</html>
